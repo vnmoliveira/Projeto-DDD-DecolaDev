@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Flunt" Version="1.0.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Aurora.Domain\Aurora.Domain.csproj" />
+    <ProjectReference Include="..\Aurora.Infra.Data\Aurora.Infra.Data.csproj" />
+    <ProjectReference Include="..\Infra.Shared\Infra.Shared.csproj" />
+  </ItemGroup>
+
+</Project>
